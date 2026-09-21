@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid; */
+}
+
+body{
+    background-color: #eef3f7;
+    padding: 30px;
+}
+
+.card-list{
+    display: flex;
+    padding: 20px;
+    gap: 16px;
+    border-radius: 8px;
+    /* border: 1px solid #cbd5e1; */
+    /* margin: 0 auto; */
+    flex-wrap: wrap;
+    max-width: 840px;
+    
+}
+
+.card{
+    flex: 1 1 180px;
+    gap: 16px;
+    min-height: 160px;
+    padding: 20px;
+    border: 1px solid #d9e0ea;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.card__eyebrow{
+    font-size: 12px;
+    font-weight: 700;
+    color: green;
+    margin: 0 0 10px;
+}
+.card h3{
+    margin: 0 0 10px;
+}
+
+.card p:last-child{
+    color: #64748b;
+    line-height: 1.5;
+}

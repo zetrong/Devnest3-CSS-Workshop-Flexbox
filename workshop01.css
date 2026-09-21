@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid; */
+}
+body{
+    background: #f5f7fb;
+}
+.app-header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid rgb(225, 225, 225);
+}
+
+a{
+    text-decoration: none;
+}
+
+.brand{
+    font-size: 20px;
+    font-weight: 700;
+    color: #1f5eff;
+}
+
+.nav{
+    display: flex;
+    gap: 20px;
+}
+
+.nav a{
+    color: #46556d;
+}
+
+.cta{
+    border-radius: 7px;
+    background-color: #1f5eff;
+    color: white;
+    padding: 8px 12px;
+}

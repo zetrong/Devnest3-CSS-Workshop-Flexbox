@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid; */
+}
+
+body{
+    background-color: #eef3f7;
+    padding: 30px;
+
+}
+
+.panel{
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+}
+
+.action-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-group{
+    display: flex;
+    gap: 10px;
+}
+
+.action-group button{
+    background-color: white;
+    border-radius: 7px;
+    padding: 8px 12px;
+    border: 1px solid #cbd5e1;
+    color: #334155;
+    font-weight: 500;
+}
+
+.action-group .primary{
+    background-color: #11766e;
+    color: white;
+    border: 0;
+}
